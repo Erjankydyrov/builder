@@ -1,8 +1,13 @@
+import Layout from "./components/Layout/Layout";
+import Toolbar from "./components/Toolbar/Toolbar";
 
 function App() {
   return (
     <div className="App">
-      Dango-builder by Erjan Kydyrov
+      <Layout>
+        <Toolbar />
+        Dango-builder by Erjan Kydyrov
+      </Layout>
     </div>
   );
 }
