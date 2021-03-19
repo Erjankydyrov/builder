@@ -4,7 +4,8 @@ import logo from "../../images/logo.svg"
 const Logo = () => {
     return ( 
         <div className = {classes.Logo}>
-            <img src = {logo} alt = "logo" className = {classes.img} />
+            <img src = {logo} alt = "logo" />
+            <div>Dango</div>
         </div>
     );
 }

@@ -1,4 +1,8 @@
-.img {
-    width: 100px;
-    height: 100px;
+.Logo {
+    display: flex;
+    align-items: center;
+}
+.Logo img {
+    margin: .5rem;
+    height: 50px;
 }
