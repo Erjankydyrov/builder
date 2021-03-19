@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <Layout>
-        
+        Dango-builder by Erjan Kydyrov
       </Layout>
     </div>
   );
