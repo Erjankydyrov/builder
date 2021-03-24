@@ -1,7 +1,12 @@
 .DangoPreview {
-    width: 350px;
-    height: 350px;
+    width: 400px;
+    height: 400px;
     margin-right: 1rem;
     margin-bottom: 1rem;
-    background-color: saddlebrown;
+    border-radius: 30%;
+    background-color: #ffd000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
