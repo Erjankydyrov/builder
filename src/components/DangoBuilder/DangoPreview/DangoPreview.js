@@ -9,9 +9,12 @@ const DangoPreview = ({ ingredients }) => {
             result.push(<DangoIngredient type = {ingredient} />)
         }
     }
+
     return ( 
         <div className = {classes.DangoPreview}>
-            {result}
+            <div className={classes.ingredients}>
+                {result}
+            </div>
         </div>
     );
 }
