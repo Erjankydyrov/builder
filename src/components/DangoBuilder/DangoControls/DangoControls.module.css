@@ -1,9 +1,9 @@
 .DangoControls {
-    width: 400px;
+    width: 300px;
     height: 400px;
     padding: 1rem;
-    
+
     background-color: #ffd000;
     color: white;
-    border-radius: 20%;
+    border-radius: 30px;
 }
