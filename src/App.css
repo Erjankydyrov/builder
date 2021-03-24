@@ -7,3 +7,6 @@ body {
     margin: 0;
     font-family: 'Redressed', cursive;
 }
+.App h1 {
+    text-align: center;
+}
