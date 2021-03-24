@@ -1,4 +1,5 @@
 import "./App.css";
+import DangoBuilder from "./components/DangoBuilder/DangoBuilder";
 import Layout from "./components/Layout/Layout";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
     <div className="App">
       <Layout>
         Dango-builder by Erjan Kydyrov
+        <DangoBuilder />
       </Layout>
     </div>
   );
